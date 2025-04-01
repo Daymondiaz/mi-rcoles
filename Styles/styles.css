@@ -1,0 +1,146 @@
+body {
+    background-color: #7cdae0;
+    margin: 40px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    background-color: #083a85;
+    border-radius: 10px;
+}
+
+hr {
+    border: none;
+    height: 7px;
+    background-color: #083a85;
+    margin: 20px auto;
+}
+
+nav ul {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav li {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+nav li img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #083a85;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #083a85;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 3em;
+}
+
+section div img {
+    width: 500px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+section div p {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    max-width: 600px;
+}
+
+section article h2 {
+    font-size: 32px;
+    padding: 1em;
+    color: #654321;
+}
+
+section article p {
+    font-size: 20px;
+    padding: 1em;
+    text-align: justify;
+}
+
+section article a {
+    font-size: 22px;
+    padding: 1em;
+    font-weight: bold;
+    color: #654321;
+    text-decoration: none;
+}
+
+section article div ol {
+    margin-top: 10px;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+section article div ol li {
+    padding: 10px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+table td, table th {
+    border: 2px solid #654321;
+    padding: 15px;
+    text-align: center;
+}
+
+table tr th {
+    font-size: 24px;
+    background-color: #D4B996;
+}
+
+table tr td {
+    font-size: 18px;
+}
+
+table tr td img {
+    width: 120px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+table tr td img:hover {
+    transform: scale(1.1);
+}
